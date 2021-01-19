@@ -25,6 +25,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "sqlite3"
   spec.add_development_dependency "coveralls"
 
-  spec.add_runtime_dependency "kt-paperclip", ">= 6.2.0"
+  spec.add_dependency "kt-paperclip", ">= 6.2.0"
   spec.add_dependency "av", "~> 0.9.0"
 end
